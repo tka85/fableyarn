@@ -1,0 +1,47 @@
+body {
+    color: #aaa;
+    background-color: #444;
+}
+
+/* Style for the image container */
+#imageContainer {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    overflow: hidden;
+    margin: 20px;
+}
+
+/* Style adjustments for the dynamic image */
+#dynamicImage {
+    max-height: 100%;
+    /* Ensures the image's maximum height is 100% of its container */
+    max-width: 100%;
+    /* Ensures the image's maximum width is 100% of its container */
+    display: block;
+    /* Displays the image */
+}
+
+/* Styles for the text container */
+#scrollingText {
+    width: 90%;
+    /* Center it horizontally*/
+    margin: 30px auto;
+    font-size: 1.2em;
+    text-align: left;
+    white-space: pre-wrap;
+    line-height: 2;
+    /* Enable vertical scrolling*/
+    overflow-y: auto;
+    /* Set a maximum height to ensure scrolling is possible*/
+    max-height: 100px;
+}
+
+span {
+    /* transition: background-color 0.0s ease-in-out, color 0.0s ease-in-out; */
+    /* Smooth transition for the highlighting effect */
+}
+
+span#active {
+    font-size: 1.2em;
+}
